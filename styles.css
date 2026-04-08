@@ -193,7 +193,7 @@ a {
 }
 
 .navbar-logo-accent {
-  color: bisque;
+  color: var(--accent-orange);
 }
 
 .navbar-menu {
@@ -222,7 +222,6 @@ a {
   left: 0;
   width: 0;
   height: 2px;
-  background: var(--accent-orange);
   transition: width 0.3s;
 }
 
@@ -230,7 +229,7 @@ a {
   width: 100%;
 }
 
-.nav-link:hover, .nav-link.active {
+.nav-link:hover{
   color: var(--accent-orange);
 }
 
@@ -502,6 +501,8 @@ a {
   font-size: 1.125rem;
   line-height: 1.625;
   margin-bottom: 1.5rem;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .profile-pic {
@@ -530,6 +531,7 @@ a {
 
 .download-cv-container {
   margin-top: 1.5rem;
+  padding-left: 50px;
 }
 
 /* SKILLS SECTION */
