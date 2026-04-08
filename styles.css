@@ -559,7 +559,7 @@ a {
   }
 
   .skill-column:not(:last-child) {
-    border-bottom: 1px solid var(--accent-dark-blue);
+    border-bottom: 1px solid var(--accent-secondary);
   }
 }
 
