@@ -2,8 +2,9 @@
 function startTypingAnimation() {
   const heroTitleEl = document.getElementById('heroTitle');
   const phrases = [
-    "I'm a Mechanical Engineer",
-    "Undergraduate at Jomo Kenyatta University"
+    "I'm a Mechanical Engineer...",
+    "Undergraduate at Jomo Kenyatta University...",
+    "Engineering for a Sustainable Tomorrow..."
   ];
   let phraseIndex = 0;
   let charIndex = 0;
