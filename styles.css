@@ -395,6 +395,10 @@ a {
   .hero-typing {
     font-size: 1rem;
   }
+  .hero-section {
+    padding-top: 40px;  
+    min-height: auto;   
+  }
 }
 
 .hero-buttons {
@@ -493,6 +497,10 @@ a {
     flex-direction: column;
     text-align: center;
     gap: 3rem;
+  }
+  .about-section {
+    padding-top: 2rem;  
+    padding-bottom: 3rem;
   }
 }
 
