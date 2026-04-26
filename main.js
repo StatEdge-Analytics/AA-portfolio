@@ -1,4 +1,4 @@
-// ======================================== TYPING ANIMATION ======================================== 
+// TYPING ANIMATION 
 function startTypingAnimation() {
   const heroTitleEl = document.getElementById('heroTitle');
   const phrases = [
@@ -7,7 +7,7 @@ function startTypingAnimation() {
     "Engineering for a Sustainable Tomorrow..."
   ];
   let phraseIndex = 0;
-  let charIndex = 0;
+  let charIndex = 0; 
   let isDeleting = false;
   let typingTimeout;
 
@@ -20,10 +20,10 @@ function startTypingAnimation() {
 
       if (charIndex === 0) {
         isDeleting = false;
-        phraseIndex = (phraseIndex + 1) % phrases.length; // next phrase
-        typingTimeout = setTimeout(typeCharacter, 500); // pause before typing next
+        phraseIndex = (phraseIndex + 1) % phrases.length; 
+        typingTimeout = setTimeout(typeCharacter, 500); 
       } else {
-        typingTimeout = setTimeout(typeCharacter, 50); // deleting speed
+        typingTimeout = setTimeout(typeCharacter, 50); 
       }
     } else {
       charIndex++;
@@ -31,9 +31,9 @@ function startTypingAnimation() {
 
       if (charIndex === currentPhrase.length) {
         isDeleting = true;
-        typingTimeout = setTimeout(typeCharacter, 1500); // pause before deleting
+        typingTimeout = setTimeout(typeCharacter, 1500);
       } else {
-        typingTimeout = setTimeout(typeCharacter, 100); // typing speed
+        typingTimeout = setTimeout(typeCharacter, 100); 
       }
     }
   }
@@ -48,7 +48,7 @@ if (document.readyState === 'loading') {
   startTypingAnimation();
 }
 
-// ======================================== PARTICLE ANIMATION ======================================== 
+// PARTICLE ANIMATION 
 const canvas = document.getElementById('particles');
 if (canvas) {
   const ctx = canvas.getContext('2d');
@@ -110,7 +110,7 @@ if (canvas) {
   animateParticles();
 }
 
-// ======================================== SKILL BARS ANIMATION ======================================== 
+// SKILL BARS ANIMATION 
 function animateSkillBars() {
   if (!('IntersectionObserver' in window)) {
     document.querySelectorAll('.skill-bar-fill').forEach(fill => {
@@ -137,7 +137,7 @@ function animateSkillBars() {
 
 animateSkillBars();
 
-// ======================================== NAVIGATION ======================================== 
+// NAVIGATION
 const hamburger = document.getElementById('hamburger');
 const mobileMenu = document.getElementById('mobileMenu');
 const closeMenu = document.getElementById('closeMenu');
@@ -175,20 +175,20 @@ window.addEventListener('scroll', () => {
   }
 });
 
-// ======================================== LUCIDE ICONS ======================================== 
+// LUCIDE ICONS 
 if (window.lucide) lucide.createIcons();
 
-// ======================================== EDIT PANEL INTEGRATION ======================================== 
+// EDIT PANEL INTEGRATION 
 const defaultConfig = {
   hero_name: 'Aphline Anyango',
   hero_title: "I'm a Mechanical Engineer",
-  about_text: 'Passionate mechanical engineer with expertise in thermal systems design, CAD modeling, and manufacturing processes. I thrive on solving complex engineering challenges and bringing innovative designs from concept to reality. With a strong foundation in analytical problem-solving and hands-on fabrication, I deliver solutions that are both efficient and elegant.',
-  contact_email: 'aphline.anyango@email.com',
-  project_1_title: 'HVAC Optimization System',
-  project_2_title: 'Robotic Arm Actuator',
-  project_3_title: 'Turbine Blade Design',
-  project_4_title: '3D-Printed Lattice Structures',
-  project_5_title: 'Solar Thermal Collector'
+  about_text: 'I am a skilled Mechanical Engineer with experience in fabrication, manufacturing, and CAD modeling. I specialize in turning concepts into practical, high-quality engineering solutions. Proficient in creating 3D models, technical drawings, and supporting efficient production processes. Strong background in mechanical systems, materials, and product development. Committed to innovation, precision, and continuous learning in engineering.',
+  contact_email: 'aphline.anyango214@email.com',
+  project_1_title: 'Belt-Driven Power Transmission System',
+  project_2_title: 'High-Efficiency Debris Separation Rake Design',
+  project_3_title: 'Spanner Design for Prototyping',
+  project_4_title: 'Steel Door Design',
+  project_5_title: 'Plumb Bob Design for Precision Vertical Alignment'
 };
 
 let config = { ...defaultConfig };
