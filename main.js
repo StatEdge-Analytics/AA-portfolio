@@ -2,8 +2,8 @@
 function startTypingAnimation() {
   const heroTitleEl = document.getElementById('heroTitle');
   const phrases = [
-    "I'm a Mechanical Engineer...",
-    "Undergraduate at Jomo Kenyatta University...",
+    "I'm a Civil Engineer...",
+    "Undergraduate at Kenyatta University...",
     "Engineering for a Sustainable Tomorrow..."
   ];
   let phraseIndex = 0;
@@ -180,10 +180,10 @@ if (window.lucide) lucide.createIcons();
 
 // EDIT PANEL INTEGRATION 
 const defaultConfig = {
-  hero_name: 'Aphline Anyango',
-  hero_title: "I'm a Mechanical Engineer",
-  about_text: 'I am a skilled Mechanical Engineer with experience in fabrication, manufacturing, and CAD modeling. I specialize in turning concepts into practical, high-quality engineering solutions. Proficient in creating 3D models, technical drawings, and supporting efficient production processes. Strong background in mechanical systems, materials, and product development. Committed to innovation, precision, and continuous learning in engineering.',
-  contact_email: 'aphline.anyango214@email.com',
+  hero_name: 'Everyday I Try',
+  hero_title: "I'm a Civil Engineer",
+  about_text: 'I am a skilled Civil Engineer with experience in fabrication, manufacturing, and CAD modeling. I specialize in turning concepts into practical, high-quality engineering solutions. Proficient in creating 3D models, technical drawings, and supporting efficient production processes. Strong background in mechanical systems, materials, and product development. Committed to innovation, precision, and continuous learning in engineering.',
+  contact_email: 'example@email.com',
   project_1_title: 'Belt-Driven Power Transmission System',
   project_2_title: 'High-Efficiency Debris Separation Rake Design',
   project_3_title: 'Spanner Design for Prototyping',
