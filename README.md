@@ -3,7 +3,7 @@
 <div align="center">
   <!--  Here Lies the magic -->
   <!--  For an ampersand (&), use &amp; (e.g., Analytics+%26+Optimization) -->
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E9EF7&center=true&vCenter=true&width=435&lines=Civil+Engineer+%7C+Engineering+for+Sustainable+Tomorrow+%7C+Smart+Manufacturing+for+Automotive+Evolution" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E9EF7&center=true&vCenter=true&width=435&lines=Civil+Engineer+%7C+Engineering+for+Sustainable+Tomorrow" alt="Typing SVG" />
 </div>
 
 <!-- 🔗 links to social media and contact information -->
